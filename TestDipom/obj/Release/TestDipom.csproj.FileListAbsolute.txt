@@ -1,0 +1,12 @@
+C:\Documents and Settings\соколов\Мои документы\Visual Studio 2008\Projects\TestDipom\TestDipom\bin\Release\TestDipom.exe
+C:\Documents and Settings\соколов\Мои документы\Visual Studio 2008\Projects\TestDipom\TestDipom\bin\Release\TestDipom.pdb
+C:\Documents and Settings\соколов\Мои документы\Visual Studio 2008\Projects\TestDipom\TestDipom\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\соколов\Мои документы\Visual Studio 2008\Projects\TestDipom\TestDipom\obj\Release\Window1.baml
+C:\Documents and Settings\соколов\Мои документы\Visual Studio 2008\Projects\TestDipom\TestDipom\obj\Release\Window1.g.cs
+C:\Documents and Settings\соколов\Мои документы\Visual Studio 2008\Projects\TestDipom\TestDipom\obj\Release\App.g.cs
+C:\Documents and Settings\соколов\Мои документы\Visual Studio 2008\Projects\TestDipom\TestDipom\obj\Release\TestDipom_MarkupCompile.cache
+C:\Documents and Settings\соколов\Мои документы\Visual Studio 2008\Projects\TestDipom\TestDipom\obj\Release\TestDipom.g.resources
+C:\Documents and Settings\соколов\Мои документы\Visual Studio 2008\Projects\TestDipom\TestDipom\obj\Release\TestDipom.Properties.Resources.resources
+C:\Documents and Settings\соколов\Мои документы\Visual Studio 2008\Projects\TestDipom\TestDipom\obj\Release\TestDipom.csproj.GenerateResource.Cache
+C:\Documents and Settings\соколов\Мои документы\Visual Studio 2008\Projects\TestDipom\TestDipom\obj\Release\TestDipom.exe
+C:\Documents and Settings\соколов\Мои документы\Visual Studio 2008\Projects\TestDipom\TestDipom\obj\Release\TestDipom.pdb
