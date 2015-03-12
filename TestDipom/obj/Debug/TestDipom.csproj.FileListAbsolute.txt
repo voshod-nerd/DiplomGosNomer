@@ -22,3 +22,15 @@ C:\Documents and Settings\соколов\Мои документы\Visual Studio
 C:\Documents and Settings\соколов\Мои документы\Visual Studio 2008\Projects\TestDipom\TestDipom\obj\Debug\TestDipom.g.resources
 C:\Documents and Settings\соколов\Мои документы\Visual Studio 2008\Projects\TestDipom\TestDipom\obj\Debug\TestDipom.Properties.Resources.resources
 C:\Documents and Settings\соколов\Мои документы\Visual Studio 2008\Projects\TestDipom\TestDipom\obj\Debug\TestDipom.csproj.GenerateResource.Cache
+C:\ForGit\TestDipom\TestDipom\obj\Debug\TestDipom.exe
+C:\ForGit\TestDipom\TestDipom\obj\Debug\TestDipom.pdb
+C:\ForGit\TestDipom\TestDipom\bin\Debug\TestDipom.exe
+C:\ForGit\TestDipom\TestDipom\bin\Debug\TestDipom.pdb
+C:\ForGit\TestDipom\TestDipom\obj\Debug\ResolveAssemblyReference.cache
+C:\ForGit\TestDipom\TestDipom\obj\Debug\Window1.baml
+C:\ForGit\TestDipom\TestDipom\obj\Debug\Window1.g.cs
+C:\ForGit\TestDipom\TestDipom\obj\Debug\App.g.cs
+C:\ForGit\TestDipom\TestDipom\obj\Debug\TestDipom_MarkupCompile.cache
+C:\ForGit\TestDipom\TestDipom\obj\Debug\TestDipom.g.resources
+C:\ForGit\TestDipom\TestDipom\obj\Debug\TestDipom.Properties.Resources.resources
+C:\ForGit\TestDipom\TestDipom\obj\Debug\TestDipom.csproj.GenerateResource.Cache

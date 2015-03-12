@@ -1,15 +1,17 @@
 ﻿<Window x:Class="TestDipom.Window1"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    Title="Система распознования автомобильных гос. номеров.  " Height="300" Width="603">
+    Title="Система распознования автомобильных гос. номеров.  " Height="600" Width="800">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="25"></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
+            <RowDefinition Height="50*"></RowDefinition>
+            <RowDefinition Height="30*"> </RowDefinition>
         </Grid.RowDefinitions>
         
-        <StackPanel Grid.Row="0" Orientation="Horizontal">
+       
+ 
+        <StackPanel Grid.Row="0" Orientation="Horizontal" >
             <DockPanel>
                 <Menu DockPanel.Dock="Top">
                     <MenuItem Header="Экспорт">
@@ -47,28 +49,79 @@
 
 
         </StackPanel>
-        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,0,0,110" Grid.RowSpan="2">
-            <Border CornerRadius="5" Background="Aqua" Margin="10 10 10 10" >
-                <StackPanel Orientation="Vertical">
-                    <TextBlock Text="Списко экспортируемы графических файлов"></TextBlock>
-                    <ListBox>
-                        <ListBoxItem>
-                            <TextBox Text="Файл №1"></TextBox>
-                        </ListBoxItem>
-                        <ListBoxItem>
-                            <TextBox Text="Файл №1"></TextBox>
-                        </ListBoxItem>
-                        <ListBoxItem>
-                            <TextBox Text="Файл №1"></TextBox>
-                        </ListBoxItem>
+        <Grid Grid.Row="1"  Margin="5 5 5 5" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+
+            <Border CornerRadius="5" Grid.Column="0" Background="Aqua" Margin="10 10 10 10" Padding="5 5 5 5"  >
+                <StackPanel Orientation="Vertical" ScrollViewer.VerticalScrollBarVisibility="Visible" >
+                    <TextBlock Text="Список экспортируемы графических файлов"></TextBlock>
+                   
+                    <ListBox  Height="350" ScrollViewer.VerticalScrollBarVisibility="Visible"
+         ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.CanContentScroll="False" >
+                        <ListBoxItem>Файл №1</ListBoxItem>
+                        <ListBoxItem>Файл №2</ListBoxItem>
+                        <ListBoxItem>Файл №3</ListBoxItem>
+                        <ListBoxItem>Файл №4</ListBoxItem>
+                        <ListBoxItem>Файл №5</ListBoxItem>
+                        <ListBoxItem>Файл №6</ListBoxItem>
+                        <ListBoxItem>Файл №7</ListBoxItem>
+                        <ListBoxItem>Файл №8</ListBoxItem>
+                        <ListBoxItem>Файл №9</ListBoxItem>
+                        <ListBoxItem>Файл №10</ListBoxItem>
+                        <ListBoxItem>Файл №11</ListBoxItem>
+                        <ListBoxItem>Файл №12</ListBoxItem>
+                        <ListBoxItem>Файл №13</ListBoxItem>
+                        <ListBoxItem>Файл №14</ListBoxItem>
+                        <ListBoxItem>Файл №15</ListBoxItem>
+                        <ListBoxItem>Файл №16</ListBoxItem>
+                        <ListBoxItem>Файл №17</ListBoxItem>
+                        <ListBoxItem>Файл №18</ListBoxItem>
+                        <ListBoxItem>Файл №19</ListBoxItem>
+                        <ListBoxItem>Файл №21</ListBoxItem>
+                        <ListBoxItem>Файл №22></ListBoxItem>
+                        <ListBoxItem>Файл №23</ListBoxItem>
+                        <ListBoxItem>Файл №24</ListBoxItem>
+                        <ListBoxItem>Файл №1</ListBoxItem>
+                        <ListBoxItem>Файл №2</ListBoxItem>
+                        <ListBoxItem>Файл №3</ListBoxItem>
+                        <ListBoxItem>Файл №4</ListBoxItem>
+                        <ListBoxItem>Файл №5</ListBoxItem>
+                        <ListBoxItem>Файл №6</ListBoxItem>
+                        <ListBoxItem>Файл №7</ListBoxItem>
+                        <ListBoxItem>Файл №8</ListBoxItem>
+                        <ListBoxItem>Файл №9</ListBoxItem>
+                        <ListBoxItem>Файл №10</ListBoxItem>
+                        <ListBoxItem>Файл №11</ListBoxItem>
+                        <ListBoxItem>Файл №12</ListBoxItem>
+                        <ListBoxItem>Файл №13</ListBoxItem>
+                        <ListBoxItem>Файл №14</ListBoxItem>
+                        <ListBoxItem>Файл №15</ListBoxItem>
+                        <ListBoxItem>Файл №16</ListBoxItem>
+                        <ListBoxItem>Файл №17</ListBoxItem>
+                        <ListBoxItem>Файл №18</ListBoxItem>
+                        <ListBoxItem>Файл №19</ListBoxItem>
+                        <ListBoxItem>Файл №21</ListBoxItem>
+                        <ListBoxItem>Файл №22></ListBoxItem>
+                        <ListBoxItem>Файл №23</ListBoxItem>
+                        <ListBoxItem>Файл №24</ListBoxItem>
                     </ListBox>
-                        
+                       
                 </StackPanel>
             </Border>
-            <Border CornerRadius="5" Background="Azure">
-                <Canvas Width="auto" Height="auto" ></Canvas>
+            <Border CornerRadius="5" Grid.Column="1" Padding="5 5 5 5" >
+                <Canvas Width="auto" Height="auto" Background="Black" ></Canvas>
             </Border>
-        </StackPanel>
+        </Grid>
+        
+        <Border Grid.Row="2" Background="Blue" CornerRadius="10" Padding="10 10 10 10" Margin="5 5 5 5" >
+            <Grid></Grid>
+        </Border>
+        
     </Grid>
+    
     
 </Window>
